@@ -1,0 +1,41 @@
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.5em 0.5em 0.5em;
+  border:5px;
+  margin: 0.5em 0.5em 0.5em;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.canvas {
+  border: 1px solid blue;
+  /*transform: scaleY(-1);*/
+  /*padding: 0.5em 0.5em 0.5em;*/
+  /*margin: 0.5em 0.5em 0.5em;*/
+}
+
+.info_box {
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 5px;
+  width: 75%;
+}
+
+.padding {
+  padding: 0.5em 0.5em 0.5em;
+  margin: 0.5em 0.5em 0.5em;
+
+}
+
+.placeholder {
+  padding: 30px;
+  margin: 30px;
+  color: white;
+}
+
